@@ -1,0 +1,89 @@
+*{
+   padding:0px;
+   margin:0px;
+   list-style:none;
+   text-decoration:none;
+   box-sizing: border-box;
+   }
+.body{
+	   font-family:montserrat;
+   }
+#logo{                                                                              /* Admin Nav-Bar start*/
+    width: 10vw;
+    padding: 3vh;
+}
+.nav ul li{
+		 display:inline-block;
+		 
+	 }
+.nav ul li a{
+	   color:#000;
+	   font-size: 22px;
+	   padding:12px;  
+	 }
+.active,a:hover{
+			text-decoration:none;
+            font-weight:900;
+            font-size: 1vw;
+}
+
+/* Banner Starts*/
+.banner{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}  
+.heading{
+  width: 50%;
+}
+.banner img{
+  margin-top: 3vw;
+  width: 200px;
+  margin-left: 200px;
+  padding: 0px 0px 40px;
+}
+.ImageUploading{
+  width: 50%;
+}
+.img-form{
+  width: 24%;
+  margin-top: 20%;
+  background-color: rgb(255, 0, 0);
+}
+#delete{
+  float: right;
+  color: #000;
+  margin-top: 50px;
+  padding: 40px 80px;
+}
+/* Banner Ends*/
+/* Logout Starts */
+.logout
+{
+    margin-top: 220px;
+    font-size: x-large;
+}
+.logoutbtn{
+    margin-top: 20px;
+    width: 8vw;
+    height: 30px;
+    color: #000;
+    background-color: #2196F3;
+}
+.logout a{
+    text-decoration: none;
+    
+}
+.logoutbtn:hover , .logout a:hover{
+    background-color: #3e8e41;
+}
+/* Logout Ends */
+
+@media (max-width: 800px){
+
+/* Log Out */
+.logoutbtn{
+    width: fit-content;
+}
+}

@@ -1,0 +1,829 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffcf8c;
+}
+/* Landing Page Starts */
+.slideshow{
+    margin-top: 3vw;
+    margin-left:4%;
+}
+::placeholder{
+    color: #000;
+}
+.slideshow img{
+    width: 96%;
+    height: 60vh;
+    border-radius: 7px;
+}
+.container{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.content{
+    width: 50%;
+    justify-content: column;
+}
+.content h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 20px;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+span
+{
+	color: #000;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+/* Landing Ends */
+/* Home Page Starts */
+.flex-container1
+{
+    display: flex;
+	justify-content: space-between;
+    background-color: rgb(39, 129, 189);
+}
+.flex-container1 img{
+    width: 180px;
+    height: 80px;
+    border-radius: 6px;
+}
+.flex-item1
+{
+    width: 7vw;
+    margin-top: 1vw;
+    margin-left:4vw;
+    border-radius: 100%;
+}
+.flex-item2
+{
+	justify-content: right;
+    margin-top: 2vw;
+	margin-right: 3.5vw;
+	font-size: 1.2vw;
+    font-weight: 600;
+    color: #000;
+}
+.flex-item2 a
+{
+    padding:  0.3vw;
+    text-decoration: none;
+    color: #000;
+}
+.flex-item2 a:hover
+{
+  border-bottom: 3px solid #3673bc;
+  color: aquamarine;
+} 
+.flex-item2 a.active
+{
+  border-bottom: 3px solid #3673bc;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+.flex-item2 .icon{
+    display: none;
+}
+ 
+.slideshow-container{
+    margin-top:1vw;
+    margin-left:4%;
+}
+.slideshow-container img{
+    width: 96%;
+    height: 500px;
+    border-radius: 7px;
+}
+.footer
+{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 10vw;
+    color: #fff;
+    background-color: #000;
+    margin-top: 20px;
+}
+.footer-column
+{
+    width: 50%;
+    text-align: left;
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-left: 2vw;
+}
+.footer-column h4
+{
+    margin-left: 6vw;
+    font-size: 1.4vw;
+}
+.footer-column .links a , .links p
+{
+    display: flex;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 6vw;
+    color: #aaa;
+    font-size: 1vw;
+}
+.social-links
+{
+    margin-top: 1vw;
+    margin-left: 5.8vw;
+}
+.social-links a
+{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+    text-align: center;
+    background-color:rgba(255,255,255,0.2);
+	border-radius:50%;
+    line-height: 40px;
+	color:#fff;
+	transition:all 0.5s ease;
+}
+.social-links a:hover
+{
+    color:#24262b;
+    background-color:#ffffff;	
+}
+/* Home Page Ends */
+/* About Us Page Starts */
+.about
+{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 40px;
+}
+.row
+{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.column
+{    
+    width: 28%;
+    height: 80vh;
+    margin: 14px;
+    background-color: navajowhite;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.column img
+{
+    width: 80%;
+    margin-left: 10%;
+    height: 20vw;
+}
+.column h2
+{
+    font-size: 30px;
+    margin-left: 2.4vw;
+}
+.column h4
+{
+    font-size: 25px;
+    margin-left: 2.4vw;
+} 
+.column p
+{
+    font-size: 20px;
+    margin-left: 2.4vw;
+}
+.about_social-links
+{
+    margin-left: 2.4vw;
+    padding-top: 1vw;
+}
+.about_social-links a{
+	display: inline-block;
+	height:40px;
+	width:40px;
+    text-align: center;
+    background-color:rgba(255,255,255,0.2);
+	border-radius:50%;
+    line-height: 40px;
+	color:#000;
+	transition:all 0.5s ease;
+}
+.about_social-links a:hover
+{
+    color:#24262b;
+    background-color:#ffffff;	
+}
+/* About Us Ends */
+/* Booking Form Starts */
+.booking-container{
+    max-width: 900px;
+    width: 100%;
+    background-color:#fff ;
+    padding: 5px 45px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+ .title{
+     color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight:1000;
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+}
+.sel-opt select{
+    height: 45px;
+    width:387px;
+    margin-bottom: 25px;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width:3px;
+    transition: all 0.3s ease;
+}
+.sel-opt .details{
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+ .booking-container form .user-details{
+    text-align:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 50px 0 12px 0;
+}
+form .user-details .input-box {
+    width:calc(100% / 2 - 10px);
+   margin-bottom: 25px;
+}
+.user-details .input-box .details {
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width:3px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color:#9b59b6;
+}
+form .but{
+    height:45px;
+    margin: 45px 0;
+}
+form .but input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color:#fff;
+    border:none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #9b59b6;
+    border-radius:10px;
+}
+form .but input:hover{
+    background-color:darkmagenta;
+}
+/* Booking Form Ends */
+/* Contact Form Starts */
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p
+{
+    margin-top: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.contact_container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contact_container .contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.contact_container .contactinfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contact_container .contactinfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 34px;
+}
+.contact_container .contactinfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.contact_container .contactinfo .box .text h3
+{
+    margin-top: 4px;
+    font-weight: 600;
+    color: #00bcd4;
+}
+.contactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputbox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputbox input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border:  none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputbox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: -50px 0px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputbox input:focus ~ span,
+.contactForm .inputbox input:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+/* Contact Form Ends */
+/* Feedback Starts */
+.feedback_container{
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px #333;
+}
+.feedback{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+.feedback_submit{
+    background-color: #04AA6D;
+    color: white;
+    padding-top: 0%;
+    margin-left: 30%;
+    width: 30%;
+    height: 3vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+/* Feedback Ends */
+
+/* About Page Starts */
+.about_event{
+    background-color: #fff;
+    width: 750px;
+    height: 100%;
+    margin-top: 30px;
+    text-align: left;
+    padding: 2px 20px;
+    border-radius: 6px;
+}
+.about_event img{
+    width:100%;
+    height:260px;
+    border-radius: 17px;
+}
+.about_event a{
+  color: blue;
+  text-decoration:underline;
+  cursor: pointer;
+}
+.slide-container{
+    margin-top: 1vw;
+}
+#more {display: none;}
+#mor{display: none;}
+#mo{display: none;}
+#m{display: none;}
+/* About Page Ends */
+
+/* Privacy Policy and Terms & Conditions */
+.privacy{
+            display: block;
+            margin-top: 20px;
+            margin-left: 15%;
+            width: 70%;
+            background: linear-gradient(to right,#fff 0%, #fff 100%);     
+        }
+        .terms{
+            padding: 30px;
+            margin: 10px;
+            line-height: 1.5rem;
+        }
+/* Privacy Policy and Terms & Conditions Ends*/
+
+/* Registration Start */
+.reg-container{
+    max-width: 750px;
+    width: 100%;
+    background-color:#fff ;
+    padding:20px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+::placeholder{color: black;}
+.reg-title{
+    font-size: 40px;
+    font-weight:1000;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    text-decoration: underline;
+}
+.reg-container form p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.reg-box input{
+    position: relative;
+    height: 45px;
+    width:100%;
+    max-width: 310px;
+    margin:5px 20px;
+    font-size: 17px;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.button input{
+    background-color: blue;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+    max-width:290px;
+    height:50px;
+    border-radius: 6px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.button input:hover{
+    background-color: lightblue;
+}
+.button h5{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.button a{
+    margin-left: 15px;
+    text-decoration: none;
+}
+/* Logout Starts */
+.logout
+{
+    margin-top: 220px;
+    font-size: x-large;
+}
+.logoutbtn{
+    margin-top: 20px;
+    width: 8vw;
+    height: 30px;
+    color: #000;
+    background-color: #2196F3;
+}
+.logout a{
+    text-decoration: none;
+    
+}
+.logoutbtn:hover , .logout a:hover{
+    background-color: #3e8e41;
+}
+/* Logout Ends */
+@media (max-width: 800px){
+  /* Landing */
+    .container{
+      flex-wrap: wrap;
+  }
+  .content{
+      width: 100%;
+  }
+  /* Landing Ends */
+  /* Home Starts */
+
+.flex-container1 img{
+    width: 140px;
+    height: 80px;
+}
+.flex-item2{
+    font-size: 3.3vw;
+}
+.flex-item2 a{
+    display: none;
+}
+.flex-item2 a.icon{
+    float: right;
+    display: block;
+    font-size: 30px;
+}
+.flex-item2 .responsive{
+    position: relative;
+}
+.flex-item2 .responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.flex-item2.responsive a{
+    display: block;
+    text-align: left;
+}
+.slideshow-container img{
+  height: 30vh;
+}
+.footer{
+    height: 20vw;
+}
+.social-links a{
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}    
+/* Home Ends */
+/* About Us Stars */
+.column
+    {
+        width: 80%;
+        height: 60vh;
+    }
+.column img{
+        height: 24vh;
+    }
+    /* About Us Ends */
+/* Booking Form Starts */
+.booking_container{
+    max-width: 100%;
+}
+form .user-details .input-box{
+    width:100%;
+   margin-bottom:25px;
+}
+.sel-opt select{
+height: 45px;
+width:100%;
+} 
+/* Booking form Ends */
+/* Contact Form Starts */
+.contact
+    {
+        padding: 50px;
+    }
+    .contact_container
+    {
+        flex-direction: column;
+    }
+    .contact_container .contactinfo
+    {
+        margin-bottom: 40px;
+    }
+    .contact_container .contactinfo,
+    .contactForm
+    {
+        width: 100%;
+    }
+/* Contact Form Ends */
+
+  /* About Page Starts */
+  .about_container
+  {
+      grid-gap: 3rem;
+  }
+  /* About Page Ends */
+
+
+/* Log Out */
+.logoutbtn{
+    width: fit-content;
+}
+}
